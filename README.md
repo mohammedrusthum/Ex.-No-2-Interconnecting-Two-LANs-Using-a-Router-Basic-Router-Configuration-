@@ -1,5 +1,5 @@
-# Date :
-## Ex.-No-2-Interconnecting-Two-LANs-Using-a-Router-Basic-Router-Configuration
+# Date : 27.07.2026
+# Ex.-No-2-Interconnecting-Two-LANs-Using-a-Router-Basic-Router-Configuration
 
 
 # Objective
@@ -16,7 +16,8 @@ ________________________________________
  Description:<br>
 •	PC0 → Switch0 → Router (FastEthernet0/0)<br>
 •	PC1 → Switch1 → Router (FastEthernet0/1)<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/95dbb825-7a57-4a1e-97c2-6272694bbe22" />
+
 ________________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
@@ -51,10 +52,24 @@ Router(config)# interface fastethernet0/1<br>
 Router(config-if)# ip address 192.168.2.1 255.255.255.0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
-# Output (Screenshots)
-•	Router CLI configuration<br>
-•	IP configurations on PCs<br>
-•	Successful ping between PC0 and PC1<br>
+# Output 
+•	Router CLI configuration 
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/79691ba3-c9ea-464c-abe7-353c962b4f73" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/7cb820c4-0b27-46aa-9030-e41066f260d9" />
+
+
+•	IP configurations on PCs 
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/75f2e4bd-b214-440c-a576-98a5b41b7c51" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/b9a7e290-63a7-4847-aa78-c94de2f05e03" />
+
+
+
+•	Successful ping between PC0 and PC1
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/4e214a2c-97e7-4123-9f92-584d891c260e" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/34cadc97-13a9-4295-835c-229199836b66" />
+
+
 ________________________________________
 # Result
 Successfully configured a router to connect two LANs. Communication between PC0 and PC1 across different networks was tested and verified.
